@@ -524,3 +524,43 @@ span {
         top: 0;
     }
 }
+
+     /*------------------------bloco 4---------------------*/
+
+     h5 {
+    color: black;
+   }
+
+fieldset {
+          border: 2px rgb(250, 250, 250) solid;
+         }
+
+label {
+       color: rgb(0, 0, 0);
+       width: 220px;
+       padding: 2px;
+      }
+
+input {
+       width: 220px;
+       border: 2px rgb(0, 0, 0) solid;
+       border-radius: 3px;
+       padding: 2px;
+      }
+
+#cadastro {
+          width: 120px;
+          border: 2px rgb(0, 0, 0) solid;
+          background-color: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+         }
+
+#cadastro:hover {
+                 width: 120px;
+                 border: 2px rgb(0, 0, 0) solid;
+                 background-color: rgb(35, 102, 204);
+                 color: rgb(255, 255, 255);
+                 cursor: pointer;
+                }
+
