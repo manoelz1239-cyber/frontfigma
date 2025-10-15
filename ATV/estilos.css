@@ -1,0 +1,526 @@
+#fundo {
+    
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu1 {
+    position: relative;
+    width: 100%;
+    height: 690px;
+}
+
+#titulo { 
+    
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    left: 10%;
+    top: 15%;
+}
+
+p{
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto {
+    
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    left: 10%;
+    top: 50%;
+}
+
+
+#paragrafo {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 10%;
+    top: 80%; 
+    background-color: rgb(46, 46, 46);
+}
+
+#imagem {
+    
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 65%;
+    top: 25%;
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    color:white;
+}
+
+/*------------------------bloco 2---------------------*/
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 580px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    background-color: rgb(223, 227, 231);
+    padding: 40px 0;
+    
+	  
+}
+
+.card1, .card2 {
+    height: auto; 
+    width: 38%;
+    padding: 20px; 
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    background-color: white;
+}
+
+h4{
+    position: relative;
+    top: -40%;
+    left: 8%;
+    font-size: 1.5em;
+    font-family: arial;
+
+}
+
+#doze {
+    font-size: 1.5em;
+}
+
+#qua {
+    font-size: 1.5em;
+}
+
+h2{
+    font-family: arial;
+    font-size: 1.8em;
+}
+
+.container h4 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.0em;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*------------------------bloco 2---------------------*/
+
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 1200;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.card3 {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+.card4 {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 40%;
+    margin-bottom: 20px;
+
+}
+
+.img1 {
+    position: relative;
+    display: flex;
+    width: 20%;
+    height: 65%;
+    left: 5%;
+    top: 20%;
+    
+    background-image: url(img1.png);
+    background-size: cover;
+   
+}
+
+.text1 {
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 400px;
+    top: 10%;
+    left: 6%;
+    flex-direction: column;
+
+}
+
+#titulo1 {
+    font-size: 2.5em;
+    font-family: arial;
+}
+h5 {
+    font-size: 1.5em;
+    color: #8695A4;
+
+}
+
+span {
+ background-color: #142850;
+ border: 2px  solid;
+ color: white;
+ border-radius: 20px;
+ width: 20px;
+ font-size: 1.3em;
+
+}
+
+#abu {
+    font-size: 2.0em;
+    font-family: arial;
+}
+legend {
+    font-family: arial;
+    font-size: 1.8em;
+    position: relative;
+    display: flex;
+    left: -940px;
+}
+
+
+
+.img2 {
+    position: relative;
+    display: flex;
+    width: 20%;
+    height: 65%;
+    left: 5%;
+    top: 20%;
+    border: 2px blue solid;
+    background-image: url(img2.png);
+    background-size: cover;
+   
+}
+
+.text2 {
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 400px;
+    top: 10%;
+    left: 6%;
+    flex-direction: column;
+
+}
+
+#titulo2 {
+    font-size: 2.5em;
+    font-family: arial;
+}
+h5 {
+    font-size: 1.5em;
+    color: #8695A4;
+
+}
+
+span {
+ background-color: #142850;
+ border: 2px  solid;
+ color: white;
+ border-radius: 20px;
+ width: 20px;
+ font-size: 1.3em;
+
+}
+
+#abu {
+    font-size: 2.0em;
+    font-family: arial;
+}
+#container1 h2 {
+    font-size: 2.0em;
+    position: relative;
+    left: -650px;
+}
+
+/*------------------------bloco 3---------------------*/
+
+#container2
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 1200px;
+    
+    align-items: center;
+    background-color: #EDF7FA;
+
+    
+}
+.card5 {
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-items:center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left: -50px;
+
+
+}
+
+.card6 {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding-left: 20px;
+    background-color: white;
+
+
+}
+
+.img3 {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 35%;
+    background-size: cover;
+}
+
+.img3 h2{
+    width: 100%;
+    text-align: center;
+}
+
+.img3 img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.card5 p {
+    font-size: 1.8em;
+    position: relative;
+    top: 50px;
+}
+
+
+.img4 {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 35%;
+    background-size: cover;
+}
+
+.img4 h2{
+    width: 100%;
+    text-align: center;
+}
+
+.img4 img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.card5 p {
+    font-size: 1.8em;
+    position: relative;
+    top: 50px;
+}
+
+#container2 h1 {
+    font-size: 2.0em;
+    position: relative;
+    top: -400px;
+    left: 80px;
+
+}
+
+/*------------------------bloco 4---------------------*/
+
+#container3 {
+    position: relative;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+    #menu1 {
+        height: auto; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+    #imagem {
+        position: relative; 
+        width: 60%;
+        height: auto;
+        left: 0;
+        top: 0;
+        margin-bottom: 30px;
+    }
+
+    #imagem img {
+        width: 100%;
+        height: auto;
+    }
+
+    #titulo, #texto {
+        position: relative;
+        width: 90%;
+        height: auto;
+        left: 0;
+        top: 0;
+        margin: 10px 0;
+    }
+
+    #titulo p {
+        font-size: 1.8em; 
+    }
+
+    #paragrafo {
+        font-size: 1em;
+    }
+    
+    
+    button {
+        position: relative;
+        width: 60%;
+        height: 50px;
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    
+    #container1 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #container1 h2 {
+        position: static;
+        text-align: center;
+        left: auto;
+        margin-bottom: 20px;
+    }
+
+    .card3, .card4 {
+        flex-direction: column; 
+        width: 90%;
+        height: auto;
+        margin-bottom: 40px;
+        align-items: center; 
+    }
+
+    .img1, .img2 {
+        position: static;
+        width: 100%; 
+        height: 200px; 
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    .text1, .text2 {
+        position: static;
+        width: 90%;
+        height: auto;
+        left: 0;
+        top: 0;
+        text-align: left;
+    }
+
+    #titulo1, #titulo2 {
+        font-size: 1.8em;
+    }
+
+    #abu {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    #container2 {
+        flex-direction: column; 
+        height: auto;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    #container2 h1 {
+        position: static;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .card5 {
+        width: 90%;
+        height: auto;
+        left: 0;
+        padding: 20px;
+    }
+
+    .img3, .img4 {
+        width: 80%; 
+        height: auto;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    .card5 p {
+        font-size: 1em;
+        top: 0;
+    }
+}
